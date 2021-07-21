@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9195D89F26A8782E0070C833 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195D89E26A8782E0070C833 /* ProfileViewController.swift */; };
+		9966BEB626A8940000E275F3 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9966BEB526A8940000E275F3 /* chatViewController.swift */; };
 		99E8222E26A7E0EB003AB949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8222D26A7E0EB003AB949 /* AppDelegate.swift */; };
 		99E8223026A7E0EB003AB949 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8222F26A7E0EB003AB949 /* SceneDelegate.swift */; };
 		99E8223226A7E0EB003AB949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8223126A7E0EB003AB949 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		9195D89E26A8782E0070C833 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9966BEB526A8940000E275F3 /* chatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
 		99E8222A26A7E0EB003AB949 /* NYCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E8222D26A7E0EB003AB949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99E8222F26A7E0EB003AB949 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				99E8223126A7E0EB003AB949 /* ViewController.swift */,
 				9195D89E26A8782E0070C833 /* ProfileViewController.swift */,
 				99E8223326A7E0EB003AB949 /* Main.storyboard */,
+				9966BEB526A8940000E275F3 /* chatViewController.swift */,
 				99E8224626A7EED2003AB949 /* homepageViewController.swift */,
 				99E8223926A7E0F2003AB949 /* Assets.xcassets */,
 				99E8223B26A7E0F2003AB949 /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 				99E8222E26A7E0EB003AB949 /* AppDelegate.swift in Sources */,
 				99E8224726A7EED2003AB949 /* homepageViewController.swift in Sources */,
 				99E8223826A7E0EC003AB949 /* NYCApp.xcdatamodeld in Sources */,
+				9966BEB626A8940000E275F3 /* chatViewController.swift in Sources */,
 				99E8223026A7E0EB003AB949 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
