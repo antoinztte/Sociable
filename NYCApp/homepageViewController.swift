@@ -25,16 +25,18 @@ class homepageViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
     
-    @IBAction func profileTapped(_ sender: UIButton) {
+
+    @IBAction func profileTapped(_ sender: Any) {
     }
-    @IBAction func chatTapped(_ sender: UIButton) {
+    @IBAction func chatTapped(_ sender: Any) {
     }
-    @IBAction func homeTapped(_ sender: UIButton) {
+    @IBAction func homeTapped(_ sender: Any) {
     }
-    @IBAction func mapTapped(_ sender: UIButton) {
+    @IBAction func mapTapped(_ sender: Any) {
     }
-    @IBAction func resourcesTapped(_ sender: UIButton) {
+    @IBAction func resourcesTapped(_ sender: Any) {
     }
     
 }

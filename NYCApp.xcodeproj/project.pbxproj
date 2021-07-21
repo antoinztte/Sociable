@@ -14,7 +14,7 @@
 		99E8223826A7E0EC003AB949 /* NYCApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99E8223626A7E0EC003AB949 /* NYCApp.xcdatamodeld */; };
 		99E8223A26A7E0F2003AB949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E8223926A7E0F2003AB949 /* Assets.xcassets */; };
 		99E8223D26A7E0F2003AB949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E8223B26A7E0F2003AB949 /* LaunchScreen.storyboard */; };
-		99E8224526A7E678003AB949 /* homepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8224426A7E678003AB949 /* homepageViewController.swift */; };
+		99E8224726A7EED2003AB949 /* homepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8224626A7EED2003AB949 /* homepageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		99E8223926A7E0F2003AB949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99E8223C26A7E0F2003AB949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99E8223E26A7E0F2003AB949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99E8224426A7E678003AB949 /* homepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepageViewController.swift; sourceTree = "<group>"; };
+		99E8224626A7EED2003AB949 /* homepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				99E8222F26A7E0EB003AB949 /* SceneDelegate.swift */,
 				99E8223126A7E0EB003AB949 /* ViewController.swift */,
 				99E8223326A7E0EB003AB949 /* Main.storyboard */,
-				99E8224426A7E678003AB949 /* homepageViewController.swift */,
+				99E8224626A7EED2003AB949 /* homepageViewController.swift */,
 				99E8223926A7E0F2003AB949 /* Assets.xcassets */,
 				99E8223B26A7E0F2003AB949 /* LaunchScreen.storyboard */,
 				99E8223E26A7E0F2003AB949 /* Info.plist */,
@@ -145,7 +145,7 @@
 			files = (
 				99E8223226A7E0EB003AB949 /* ViewController.swift in Sources */,
 				99E8222E26A7E0EB003AB949 /* AppDelegate.swift in Sources */,
-				99E8224526A7E678003AB949 /* homepageViewController.swift in Sources */,
+				99E8224726A7EED2003AB949 /* homepageViewController.swift in Sources */,
 				99E8223826A7E0EC003AB949 /* NYCApp.xcdatamodeld in Sources */,
 				99E8223026A7E0EB003AB949 /* SceneDelegate.swift in Sources */,
 			);
