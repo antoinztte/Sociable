@@ -145,6 +145,13 @@
                                     <constraint firstAttribute="height" constant="397" id="Rce-ea-XiA"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qF-YG-Flr">
+                                <rect key="frame" x="0.0" y="0.0" width="126" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wn4-Im-Rdm"/>
                         <color key="backgroundColor" red="0.94117647410000005" green="0.91372549530000002" blue="0.90196073060000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -358,8 +365,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lrP-N8-hud">
-                                <rect key="frame" x="110" y="121.5" width="1242" height="177"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lrP-N8-hud">
+                                <rect key="frame" x="110" y="122" width="202" height="177"/>
                                 <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.22299457073927978" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -916,27 +923,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qF-YG-Flr">
-                                <rect key="frame" x="144" y="68" width="126" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 11.22.06 AM" translatesAutoresizingMaskIntoConstraints="NO" id="rhO-6P-GRr">
-                                <rect key="frame" x="29" y="167" width="150" height="151"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 11.24.07 AM" translatesAutoresizingMaskIntoConstraints="NO" id="JJb-5q-79H">
-                                <rect key="frame" x="29" y="358" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 11.26.35 AM" translatesAutoresizingMaskIntoConstraints="NO" id="8rU-kw-UEL">
-                                <rect key="frame" x="29" y="546" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hox-E9-HwR">
-                                <rect key="frame" x="195" y="175" width="194" height="150"/>
+                                <rect key="frame" x="195" y="156" width="194" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">a small home style Jamaican kitchen serving jerk chicken, ox tail, patties, fresh juice &amp; tings!
@@ -947,7 +935,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="kopitiam is primarily a hybrid of Chinese and Malay flavors drawing ingredients and techniques from both cultures." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="u2I-2R-jzr">
-                                <rect key="frame" x="195" y="366" width="194" height="133"/>
+                                <rect key="frame" x="195" y="347" width="194" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -955,7 +943,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AmU-dR-6G7">
-                                <rect key="frame" x="195" y="554" width="194" height="133"/>
+                                <rect key="frame" x="195" y="535" width="194" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Love, Nelly is a Colombian Bakery opened by Stephanie Gallardo and Keavy Landreth. 
@@ -1024,6 +1012,26 @@
                                     <segue destination="t7n-H2-5DK" kind="show" id="Sld-aH-pT9"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jamacian" translatesAutoresizingMaskIntoConstraints="NO" id="Od3-cH-fi6">
+                                <rect key="frame" x="28" y="156" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asian" translatesAutoresizingMaskIntoConstraints="NO" id="ODh-al-Ih2">
+                                <rect key="frame" x="28" y="338" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="colombian" translatesAutoresizingMaskIntoConstraints="NO" id="iPp-Bc-9Su">
+                                <rect key="frame" x="28" y="526" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4k-Yb-WGZ">
+                                <rect key="frame" x="138" y="58" width="139" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42706059029999999" green="0.3910437853" blue="0.42373643259999999" alpha="0.3378983049" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gYj-Ba-Kz7"/>
                         <color key="backgroundColor" red="0.94117647410000005" green="0.91372549530000002" blue="0.90196073060000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1039,15 +1047,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OqH-JV-fTR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1583" y="838"/>
+            <point key="canvasLocation" x="1582.608695652174" y="837.72321428571422"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Ld8-tn-ZfU"/>
-        <segue reference="0jR-at-Ioz"/>
-        <segue reference="OUA-PU-tjc"/>
-        <segue reference="36O-yK-lKR"/>
-        <segue reference="a8r-L1-I7O"/>
+        <segue reference="Sld-aH-pT9"/>
+        <segue reference="DHR-ja-Wvc"/>
+        <segue reference="20I-B8-k6h"/>
+        <segue reference="bBS-YH-Wja"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Chat Button" width="1076" height="1072"/>
@@ -1059,8 +1067,10 @@
         <image name="Resources Button" width="1076" height="1075"/>
         <image name="Screen Shot 2021-07-22 at 11.22.06 AM" width="645" height="671"/>
         <image name="Screen Shot 2021-07-22 at 11.24.07 AM" width="484" height="504"/>
-        <image name="Screen Shot 2021-07-22 at 11.26.35 AM" width="585" height="555"/>
+        <image name="asian" width="629" height="612"/>
+        <image name="colombian" width="585" height="555"/>
         <image name="d13455ce2974f0fa8088fcf36b8372b9" width="750" height="829"/>
+        <image name="jamacian" width="587" height="580"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
