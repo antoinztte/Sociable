@@ -16,15 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="d13455ce2974f0fa8088fcf36b8372b9" translatesAutoresizingMaskIntoConstraints="NO" id="eLs-SM-sLT">
-                                <rect key="frame" x="7" y="209" width="400" height="400"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="400" id="QOo-Ph-8Ki"/>
-                                    <constraint firstAttribute="height" constant="400" id="pTX-iP-4UN"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d13455ce2974f0fa8088fcf36b8372b9" translatesAutoresizingMaskIntoConstraints="NO" id="eLs-SM-sLT">
+                                <rect key="frame" x="-168" y="153" width="750" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Sociable!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbZ-r9-qdb">
-                                <rect key="frame" x="45" y="134" width="324" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="welcome to sociable!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbZ-r9-qdb">
+                                <rect key="frame" x="45" y="75" width="324" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42706059029438126" green="0.39104378532920969" blue="0.42373643261115618" alpha="0.27367840701307944" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.94117647410000005" green="0.91372549530000002" blue="0.90196073060000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="35"/>
                                 <nil key="textColor"/>
@@ -36,14 +35,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f9h-by-bya">
-                                <rect key="frame" x="150" y="683" width="114" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f9h-by-bya">
+                                <rect key="frame" x="151" y="683" width="232" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.51809969820000001" green="0.47440497139999999" blue="0.5140669095" alpha="0.14828026380000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Username" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W16-1E-QBg">
-                                <rect key="frame" x="150" y="629" width="114" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W16-1E-QBg">
+                                <rect key="frame" x="152" y="641" width="231" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.51809969815340917" green="0.47440497144485788" blue="0.51406690952473688" alpha="0.14828026377528972" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="userInput:" destination="lWo-Lg-BOJ" eventType="editingDidEnd" id="b0H-iz-dlD"/>
@@ -55,9 +58,50 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWV-aU-dbJ">
-                                <rect key="frame" x="180" y="732" width="54" height="30"/>
-                                <state key="normal" title="Join!"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="please create an account to continue" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HBB-vm-3pQ">
+                                <rect key="frame" x="23" y="575" width="360" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42706059029999999" green="0.3910437853" blue="0.42373643259999999" alpha="0.27367840700000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="username" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BYq-b6-fuR">
+                                <rect key="frame" x="58" y="641" width="80" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.45317997209999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="password" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RvP-yL-2GD">
+                                <rect key="frame" x="58" y="683" width="79" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.45317997209999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="MQu-Cz-LFw">
+                                <rect key="frame" x="23" y="640.5" width="34" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.22299457070000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cyh-nu-jRM">
+                                <rect key="frame" x="23" y="684.5" width="34" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.22299457070000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWV-aU-dbJ">
+                                <rect key="frame" x="45" y="747" width="324" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42706059029999999" green="0.3910437853" blue="0.42373643259999999" alpha="0.33789830492032286" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="27"/>
+                                <state key="normal" title="join!">
+                                    <color key="titleColor" red="0.063129125770000002" green="0.06230295383" blue="0.1084761186" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="joinTapped:" destination="lWo-Lg-BOJ" eventType="touchUpInside" id="3Lp-4k-T2f"/>
                                     <segue destination="ZW4-8C-qzM" kind="show" id="a8r-L1-I7O"/>
@@ -66,29 +110,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wn4-Im-Rdm"/>
                         <color key="backgroundColor" red="0.94117647410000005" green="0.91372549530000002" blue="0.90196073060000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="eLs-SM-sLT" firstAttribute="top" secondItem="qbZ-r9-qdb" secondAttribute="bottom" constant="40" id="0f0-3j-ZEO"/>
-                            <constraint firstItem="qbZ-r9-qdb" firstAttribute="top" secondItem="wn4-Im-Rdm" secondAttribute="top" constant="90" id="BnS-lt-rSo"/>
-                            <constraint firstItem="SWV-aU-dbJ" firstAttribute="leading" secondItem="wn4-Im-Rdm" secondAttribute="leading" constant="180" id="HNc-AK-ZIi"/>
-                            <constraint firstItem="W16-1E-QBg" firstAttribute="top" secondItem="eLs-SM-sLT" secondAttribute="bottom" constant="20" id="KNv-TS-32w"/>
-                            <constraint firstItem="wn4-Im-Rdm" firstAttribute="trailing" secondItem="f9h-by-bya" secondAttribute="trailing" constant="150" id="Zb4-5f-7Dg"/>
-                            <constraint firstItem="wn4-Im-Rdm" firstAttribute="trailing" secondItem="W16-1E-QBg" secondAttribute="trailing" constant="150" id="ahq-Qv-gzT"/>
-                            <constraint firstItem="qbZ-r9-qdb" firstAttribute="leading" secondItem="wn4-Im-Rdm" secondAttribute="leading" constant="45" id="fH8-Zt-Of0"/>
-                            <constraint firstItem="wn4-Im-Rdm" firstAttribute="bottom" secondItem="SWV-aU-dbJ" secondAttribute="bottom" constant="100" id="h0x-S3-r78"/>
-                            <constraint firstItem="wn4-Im-Rdm" firstAttribute="trailing" secondItem="SWV-aU-dbJ" secondAttribute="trailing" constant="180" id="jFv-RE-DoH"/>
-                            <constraint firstItem="f9h-by-bya" firstAttribute="leading" secondItem="wn4-Im-Rdm" secondAttribute="leading" constant="150" id="kRr-6f-yXS"/>
-                            <constraint firstItem="wn4-Im-Rdm" firstAttribute="trailing" secondItem="eLs-SM-sLT" secondAttribute="trailing" constant="7" id="kvW-tL-ESD"/>
-                            <constraint firstItem="wn4-Im-Rdm" firstAttribute="trailing" secondItem="qbZ-r9-qdb" secondAttribute="trailing" constant="45" id="qyI-77-xSX"/>
-                            <constraint firstItem="eLs-SM-sLT" firstAttribute="leading" secondItem="wn4-Im-Rdm" secondAttribute="leading" constant="7" id="v1R-sG-MEo"/>
-                            <constraint firstItem="W16-1E-QBg" firstAttribute="leading" secondItem="wn4-Im-Rdm" secondAttribute="leading" constant="150" id="vrY-N6-h6e"/>
-                            <constraint firstItem="f9h-by-bya" firstAttribute="top" secondItem="W16-1E-QBg" secondAttribute="bottom" constant="20" id="wJB-Jj-5Zl"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v43-C8-ZDA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="lWo-Lg-BOJ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="922" y="161"/>
+            <point key="canvasLocation" x="921.73913043478262" y="160.71428571428569"/>
         </scene>
         <!--Homepage View Controller-->
         <scene sceneID="XyS-66-zBN">
@@ -133,14 +160,14 @@
                                     <segue destination="t7n-H2-5DK" kind="show" id="FsX-cT-8eP"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="City Updates" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dhX-6W-cJt">
-                                <rect key="frame" x="142" y="33" width="164" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="city updates" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dhX-6W-cJt">
+                                <rect key="frame" x="142" y="33" width="178" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDp-ka-qDp">
-                                <rect key="frame" x="60" y="118" width="0.0" height="0.0"/>
+                                <rect key="frame" x="39" y="129" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -155,7 +182,7 @@
                                     <segue destination="ycw-2Z-E46" kind="showDetail" id="eMe-DM-Mtu"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="SMOKE ALERT" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z4N-N8-QxT">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="smoke in the sky" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z4N-N8-QxT">
                                 <rect key="frame" x="45" y="375" width="150" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -170,7 +197,7 @@
                                 <rect key="frame" x="223" y="217" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="FUN IN BROOKLYN!" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="feV-Mu-bX1">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="fun in brooklyn" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="feV-Mu-bX1">
                                 <rect key="frame" x="223" y="375" width="150" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -178,22 +205,47 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cEc-l7-RNK">
-                                <rect key="frame" x="45" y="118" width="328" height="34"/>
+                                <rect key="frame" x="24" y="129" width="304" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGN-Qa-CrW">
-                                <rect key="frame" x="53" y="160" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Post"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4f-hm-ptP">
-                                <rect key="frame" x="45" y="75" width="225" height="43"/>
+                                <rect key="frame" x="24" y="86" width="186" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="24"/>
-                                <state key="normal" title="Share something!">
+                                <state key="normal" title="share something!">
                                     <color key="titleColor" red="0.070588238540000001" green="0.070588238540000001" blue="0.070588238540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 11.22.06 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Ecf-Di-6jr">
+                                <rect key="frame" x="45" y="457" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 11.24.07 AM" translatesAutoresizingMaskIntoConstraints="NO" id="2nM-yo-lN2">
+                                <rect key="frame" x="223" y="457" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="subway how-to" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W5g-tH-qXG">
+                                <rect key="frame" x="45" y="615" width="150" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="staying safe at night" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nQ1-IZ-bRM">
+                                <rect key="frame" x="223" y="615" width="150" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGN-Qa-CrW">
+                                <rect key="frame" x="325" y="129" width="69" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="post">
+                                    <color key="titleColor" red="0.071572175434994681" green="0.070635509153058745" blue="0.12298399029356055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                         </subviews>
@@ -221,74 +273,76 @@
                                 <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.22299457073927978" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwd-ck-Hb8">
-                                <rect key="frame" x="161" y="38" width="92" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwd-ck-Hb8">
+                                <rect key="frame" x="161" y="38" width="97" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="backgroundColor" red="0.42706059029999999" green="0.3910437853" blue="0.42373643259999999" alpha="0.3378983049" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Name:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ks5-ub-J6N">
-                                <rect key="frame" x="36" y="373" width="80" height="32"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="name:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ks5-ub-J6N">
+                                <rect key="frame" x="36" y="390" width="80" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.45317997206125826" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Birthday:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bkh-Zy-zTF">
-                                <rect key="frame" x="36" y="485" width="80" height="34"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="birthday:" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bkh-Zy-zTF">
+                                <rect key="frame" x="36" y="502" width="80" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.45317997209999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Bio:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ia2-jN-i5a">
-                                <rect key="frame" x="36" y="541" width="80" height="34"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="bio:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ia2-jN-i5a">
+                                <rect key="frame" x="36" y="558" width="80" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.45317997209999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Location:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G1E-Lc-ZFd">
-                                <rect key="frame" x="36" y="426" width="80" height="35"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="location:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G1E-Lc-ZFd">
+                                <rect key="frame" x="36" y="443" width="80" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.45317997209999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kcs-Q4-Nua">
-                                <rect key="frame" x="136" y="373" width="208" height="34"/>
+                                <rect key="frame" x="136" y="390" width="208" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W4I-ok-C48">
-                                <rect key="frame" x="136" y="426" width="208" height="34"/>
+                                <rect key="frame" x="136" y="443" width="208" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tuz-6Z-iyI">
-                                <rect key="frame" x="136" y="485" width="208" height="34"/>
+                                <rect key="frame" x="136" y="502" width="208" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eBN-4z-eaW">
-                                <rect key="frame" x="136" y="541" width="208" height="34"/>
+                                <rect key="frame" x="136" y="558" width="208" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQ7-Jg-GL6">
-                                <rect key="frame" x="143" y="601" width="129" height="56"/>
+                                <rect key="frame" x="143" y="621" width="129" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.45317997209999999" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Save">
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="21"/>
+                                <state key="normal" title="save">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -331,25 +385,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPY-ax-KOC">
-                                <rect key="frame" x="78" y="316" width="82" height="30"/>
+                                <rect key="frame" x="85" y="319" width="89" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.1333727300159768" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="18"/>
                                 <state key="normal" title="take a selfie">
                                     <color key="titleColor" red="0.035179409521562101" green="0.034719015988502716" blue="0.060449527107954482" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="takeSelfieTapped:" destination="ycw-2Z-E46" eventType="touchUpInside" id="Z03-mc-kzL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRI-1h-CK7">
-                                <rect key="frame" x="205" y="316" width="133" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.13337272999999999" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="choose from library">
-                                    <color key="titleColor" red="0.063129125774693082" green="0.062302953827817531" blue="0.10847611860795459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="photoLibraryTapped:" destination="ycw-2Z-E46" eventType="touchUpInside" id="fbv-2W-CaU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rq1-r6-bdA">
@@ -359,6 +403,18 @@
                                 <connections>
                                     <action selector="resourcesTapped:" destination="4Ay-8I-gOq" eventType="touchUpInside" id="MSj-vd-EgS"/>
                                     <segue destination="Qsn-Sb-u3Q" kind="show" id="Ld8-tn-ZfU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRI-1h-CK7">
+                                <rect key="frame" x="206" y="319" width="150" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.13337272999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="18"/>
+                                <state key="normal" title="choose from library">
+                                    <color key="titleColor" red="0.063129125774693082" green="0.062302953827817531" blue="0.10847611860795459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="photoLibraryTapped:" destination="ycw-2Z-E46" eventType="touchUpInside" id="fbv-2W-CaU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -377,7 +433,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TWK-Ss-SaN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1583" y="161"/>
+            <point key="canvasLocation" x="1582.608695652174" y="160.71428571428569"/>
         </scene>
         <!--Chat View Controller-->
         <scene sceneID="2hZ-x3-zTt">
@@ -642,17 +698,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hox-E9-HwR">
-                                <rect key="frame" x="195" y="175" width="194" height="135"/>
+                                <rect key="frame" x="195" y="175" width="194" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">A small home style Jamaican kitchen serving jerk chicken, ox tail, patties, fresh juice &amp; tings!
+                                <string key="text">a small home style Jamaican kitchen serving jerk chicken, ox tail, patties, fresh juice &amp; tings!
 
 </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Kopitiam is primarily a hybrid of Chinese and Malay flavors drawing ingredients and techniques from both cultures." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="u2I-2R-jzr">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="kopitiam is primarily a hybrid of Chinese and Malay flavors drawing ingredients and techniques from both cultures." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="u2I-2R-jzr">
                                 <rect key="frame" x="195" y="366" width="194" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -727,10 +783,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="I5E-Lw-1ZA"/>
-        <segue reference="FsX-cT-8eP"/>
-        <segue reference="dbe-Q0-Lco"/>
-        <segue reference="eMe-DM-Mtu"/>
+        <segue reference="Ld8-tn-ZfU"/>
+        <segue reference="0jR-at-Ioz"/>
+        <segue reference="OUA-PU-tjc"/>
+        <segue reference="20I-B8-k6h"/>
         <segue reference="Iq9-F2-JUV"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -741,8 +797,8 @@
         <image name="Image-4" width="512" height="512"/>
         <image name="Image-7" width="890" height="890"/>
         <image name="Image-8" width="1020" height="1020"/>
-        <image name="Screen Shot 2021-07-22 at 11.22.06 AM" width="587" height="580"/>
-        <image name="Screen Shot 2021-07-22 at 11.24.07 AM" width="629" height="612"/>
+        <image name="Screen Shot 2021-07-22 at 11.22.06 AM" width="645" height="671"/>
+        <image name="Screen Shot 2021-07-22 at 11.24.07 AM" width="484" height="504"/>
         <image name="Screen Shot 2021-07-22 at 11.26.35 AM" width="585" height="555"/>
         <image name="d13455ce2974f0fa8088fcf36b8372b9" width="750" height="829"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
