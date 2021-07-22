@@ -310,18 +310,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="woH-gJ-ph0">
+                                <rect key="frame" x="125" y="119" width="248" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.18814470910078643" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.42706059029999999" green="0.3910437853" blue="0.42373643259999999" alpha="0.27367840700000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.94117647410000005" green="0.91372549530000002" blue="0.90196073060000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GXU-N4-4KP">
-                                <rect key="frame" x="47" y="96.5" width="70" height="70"/>
+                                <rect key="frame" x="39" y="118.5" width="78" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="0.22299457070000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.60501259569999999" green="0.55191653969999999" blue="0.59712004659999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J19-eV-5te">
-                                <rect key="frame" x="125" y="95" width="248" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WdP-92-drk"/>
                         <color key="backgroundColor" red="0.94117647410000005" green="0.91372549530000002" blue="0.90196073060000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1038,7 +1041,7 @@
         <segue reference="FsX-cT-8eP"/>
         <segue reference="dbe-Q0-Lco"/>
         <segue reference="eMe-DM-Mtu"/>
-        <segue reference="Iq9-F2-JUV"/>
+        <segue reference="a8r-L1-I7O"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Chat Button" width="1076" height="1072"/>
