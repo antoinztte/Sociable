@@ -1161,7 +1161,7 @@
                                     <constraint firstAttribute="width" constant="208" id="C6e-Rf-NDG"/>
                                     <constraint firstAttribute="height" constant="120" id="n6M-va-u0R"/>
                                 </constraints>
-                                <string key="text">LOVE, NELLY: a Columbian restaurant opened by Stephanie Gallardo and Keavy Landreth!
+                                <string key="text">LOVE, NELLY: a Colombian restaurant opened by Stephanie Gallardo and Keavy Landreth!
 
 </string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1391,11 +1391,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Ld8-tn-ZfU"/>
-        <segue reference="0jR-at-Ioz"/>
-        <segue reference="OUA-PU-tjc"/>
-        <segue reference="36O-yK-lKR"/>
-        <segue reference="Iq9-F2-JUV"/>
+        <segue reference="dgA-Fm-a7J"/>
+        <segue reference="Sld-aH-pT9"/>
+        <segue reference="xRt-ys-f2a"/>
+        <segue reference="aRr-Kg-ZVF"/>
+        <segue reference="MML-Pt-Srs"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Chat Button" width="1076" height="1072"/>
