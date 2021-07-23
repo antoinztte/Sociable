@@ -187,7 +187,7 @@
         <!--Homepage View Controller-->
         <scene sceneID="XyS-66-zBN">
             <objects>
-                <viewController id="ZW4-8C-qzM" customClass="homepageViewController" customModule="NYCApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZW4-8C-qzM" customClass="homepageViewController" customModule="Sociable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cLU-2C-Ybh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -275,7 +275,7 @@
                                     <constraint firstAttribute="height" constant="40" id="Epn-84-DVa"/>
                                     <constraint firstAttribute="width" constant="150" id="Nu3-pB-2wf"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="10"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2021-07-22 at 11.22.06 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Ecf-Di-6jr">
@@ -292,7 +292,7 @@
                                     <constraint firstAttribute="height" constant="38" id="OMb-Oh-n8o"/>
                                     <constraint firstAttribute="width" constant="144" id="nUW-l9-Tef"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="10"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="@izzyTellez: Smoke! Stay safe." textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z4N-N8-QxT">
@@ -302,7 +302,7 @@
                                     <constraint firstAttribute="width" constant="148" id="IXF-6a-kPz"/>
                                     <constraint firstAttribute="height" constant="38" id="vmf-Or-Z5C"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="10"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grace" translatesAutoresizingMaskIntoConstraints="NO" id="ESK-ao-zWh">
@@ -319,7 +319,7 @@
                                     <constraint firstAttribute="width" constant="150" id="Efi-b0-oY5"/>
                                     <constraint firstAttribute="height" constant="38" id="Tmd-IN-jaq"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="10"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2al-7e-BaG">
@@ -374,7 +374,7 @@
                                     <constraint firstAttribute="width" constant="328" id="Qla-x0-UEA"/>
                                 </constraints>
                                 <string key="text">thanks for joining Sociable! we are a teen-based socializing and exploration app, for nyc teen natives and tourists! to create your profile, head to the profile page and input your information. after, feel free to check the homepage for your latest nyc updates, explore the chat feature to message friends, and explore the resources tabs for restaurants and poc-owned places to check out!</string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="10"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -449,7 +449,7 @@
         <!--Profile View Controller-->
         <scene sceneID="WlS-sB-kCx">
             <objects>
-                <viewController id="ycw-2Z-E46" customClass="ProfileViewController" customModule="NYCApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ycw-2Z-E46" customClass="ProfileViewController" customModule="Sociable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Df-rs-e93">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -729,7 +729,7 @@
         <!--Chat View Controller-->
         <scene sceneID="2hZ-x3-zTt">
             <objects>
-                <viewController id="ZcW-UT-J0Z" customClass="chatViewController" customModule="NYCApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZcW-UT-J0Z" customClass="chatViewController" customModule="Sociable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MNa-Pn-ajf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1002,7 +1002,7 @@
         <!--Map View Controller-->
         <scene sceneID="uOZ-7c-mLZ">
             <objects>
-                <viewController id="t7n-H2-5DK" customClass="mapViewController" customModule="NYCApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="t7n-H2-5DK" customClass="mapViewController" customModule="Sociable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PES-qk-oFA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1127,7 +1127,7 @@
         <!--Resources View Controller-->
         <scene sceneID="Pig-eL-gJk">
             <objects>
-                <viewController id="Qsn-Sb-u3Q" customClass="resourcesViewController" customModule="NYCApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Qsn-Sb-u3Q" customClass="resourcesViewController" customModule="Sociable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Om6-my-NIC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1391,11 +1391,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="dgA-Fm-a7J"/>
-        <segue reference="Sld-aH-pT9"/>
-        <segue reference="xRt-ys-f2a"/>
-        <segue reference="aRr-Kg-ZVF"/>
-        <segue reference="MML-Pt-Srs"/>
+        <segue reference="I5E-Lw-1ZA"/>
+        <segue reference="FsX-cT-8eP"/>
+        <segue reference="dbe-Q0-Lco"/>
+        <segue reference="eMe-DM-Mtu"/>
+        <segue reference="bBS-YH-Wja"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Chat Button" width="1076" height="1072"/>
