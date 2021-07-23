@@ -26,7 +26,7 @@
 		9959D1B826AA473700BA3D25 /* resourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesViewController.swift; sourceTree = "<group>"; };
 		9966BEB526A8940000E275F3 /* chatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
 		99D1DB3A26A9B56000ABEA61 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
-		99E8222A26A7E0EB003AB949 /* NYCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E8222A26A7E0EB003AB949 /* Sociable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sociable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E8222D26A7E0EB003AB949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99E8222F26A7E0EB003AB949 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		99E8223126A7E0EB003AB949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		99E8222B26A7E0EB003AB949 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99E8222A26A7E0EB003AB949 /* NYCApp.app */,
+				99E8222A26A7E0EB003AB949 /* Sociable.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		99E8222926A7E0EB003AB949 /* NYCApp */ = {
+		99E8222926A7E0EB003AB949 /* Sociable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99E8224126A7E0F2003AB949 /* Build configuration list for PBXNativeTarget "NYCApp" */;
+			buildConfigurationList = 99E8224126A7E0F2003AB949 /* Build configuration list for PBXNativeTarget "Sociable" */;
 			buildPhases = (
 				99E8222626A7E0EB003AB949 /* Sources */,
 				99E8222726A7E0EB003AB949 /* Frameworks */,
@@ -100,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = NYCApp;
+			name = Sociable;
 			productName = NYCApp;
-			productReference = 99E8222A26A7E0EB003AB949 /* NYCApp.app */;
+			productReference = 99E8222A26A7E0EB003AB949 /* Sociable.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 99E8222526A7E0EB003AB949 /* Build configuration list for PBXProject "NYCApp" */;
+			buildConfigurationList = 99E8222526A7E0EB003AB949 /* Build configuration list for PBXProject "Sociable" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99E8222926A7E0EB003AB949 /* NYCApp */,
+				99E8222926A7E0EB003AB949 /* Sociable */,
 			);
 		};
 /* End PBXProject section */
@@ -344,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		99E8222526A7E0EB003AB949 /* Build configuration list for PBXProject "NYCApp" */ = {
+		99E8222526A7E0EB003AB949 /* Build configuration list for PBXProject "Sociable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99E8223F26A7E0F2003AB949 /* Debug */,
@@ -353,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99E8224126A7E0F2003AB949 /* Build configuration list for PBXNativeTarget "NYCApp" */ = {
+		99E8224126A7E0F2003AB949 /* Build configuration list for PBXNativeTarget "Sociable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99E8224226A7E0F2003AB949 /* Debug */,
